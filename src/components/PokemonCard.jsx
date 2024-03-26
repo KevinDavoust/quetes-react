@@ -15,6 +15,7 @@ const PokemonCard = ({ pokemon }) => {
   );
 };
 
+/* added proptypes */
 PokemonCard.propTypes = {
   pokemon: PropTypes.shape({
     imgSrc: PropTypes.string,
